@@ -55,3 +55,9 @@ string ContenedorDoctor::toString(){
 			s << vec[i]->toString() << endl;
 	return s.str();
 }
+
+void ContenedorDoctor::oaoaoao(ContenedorCitas* COCIT) {
+	for (int i = 0; i < can; i++) {
+		if (vec[i]->getIden()==COCIT->getDoctor&& COCIT->get)
+	}
+}

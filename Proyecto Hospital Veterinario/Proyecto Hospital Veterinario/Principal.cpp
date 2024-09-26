@@ -1,9 +1,10 @@
 #include <iostream>
 #include <string>
-#include "Veterinaria.h" // Asegúrate de incluir todas las dependencias necesarias
 #include "ContenedorEspecialidad.h"
 #include "ContenedorDoctor.h"
 #include "ContenedorMascota.h"
+#include "ContenedorDueño.h"
+#include "ContenedorCita.h"
 
 using namespace std;
 
@@ -41,6 +42,7 @@ int main() {
         switch (opcion) {
         case 1: {
             do {
+                system("cls");
                 cout << "********* SUBMENU ADMINISTRACION *********" << endl;
                 cout << " (1) - Ingresar Especialidad" << endl;
                 cout << " (2) - Ingresar Doctor (por especialidad)" << endl;
@@ -207,6 +209,7 @@ int main() {
 
         case 2: {
             do {
+                system("cls");
                 cout << "********* SUBMENU CONTROL CITAS *********" << endl;
                 cout << " (1) - Sacar Cita" << endl;
                 cout << " (2) - Cancelar cita" << endl;
@@ -333,6 +336,7 @@ int main() {
 
         case 3: {
             do {
+                system("cls");
                 cout << "********* SUBMENU BUSQUEDAS Y LISTADOS *********" << endl;
                 cout << " (1) - Mostrar listado de Especialidades" << endl;
                 cout << " (2) - Mostrar Listado de Doctores por Especialidad" << endl;
@@ -362,6 +366,11 @@ int main() {
                       break;
                 case 4: {
                     cout << " 4 - Mostrar Pacientes por Doctor" << endl;
+                    cout << "Ingrese el identificador del Doctor" << endl;
+                    cin >> iden;
+                    cout << "Ingrese el identificador del paciente" << endl;
+                    cin >> idMascota;
+                    cout << COCIT->toStringMascDoc(iden, idMascota);
                 }
                       break;
                 case 5: {

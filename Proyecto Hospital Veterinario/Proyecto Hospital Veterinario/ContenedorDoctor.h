@@ -1,5 +1,6 @@
 #pragma once
 #include "Doctor.h"
+#include "ContenedorCita.h"
 
 class ContenedorDoctor {
 private:

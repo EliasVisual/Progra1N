@@ -15,6 +15,7 @@ public:
 	bool yaExisteCitaHorario(string, int);
 	bool ingresarCita(Citas&);
 	int posiCita(string);
+	string toStringMascDoc(string,string);
 	bool eliminarCita(string);
 	string toString();
 	

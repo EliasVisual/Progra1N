@@ -153,7 +153,6 @@
     <ClCompile Include="Interfaz.cpp" />
     <ClCompile Include="Mascota.cpp" />
     <ClCompile Include="Principal.cpp" />
-    <ClCompile Include="Principapl.cpp" />
     <ClCompile Include="Veterinaria.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

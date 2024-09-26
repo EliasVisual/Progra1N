@@ -91,3 +91,11 @@ string ContenedorCitas::toString(){
 }
 
 
+string ContenedorCitas::toStringMascDoc(string iddoc,string idmasc) {
+	stringstream s;
+	for (int i = 0; i < can; i++) {
+		if (vec[i]->getDoctor()->getIden() == iddoc && vec[i]->getMascota()->getIden() == idmasc)
+			s << vec[i]->getMascota()->toString() << endl;
+	}
+	return s.str()
+}

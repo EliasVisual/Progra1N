@@ -56,9 +56,6 @@
     <ClCompile Include="Mascota.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="Principapl.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
     <ClCompile Include="Dueño.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
